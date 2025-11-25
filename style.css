@@ -1,0 +1,120 @@
+body {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.75rem 1rem;
+}
+
+.brand-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.success-btn {
+  background-color: #198754;
+  color: white;
+  border: none;
+}
+
+.success-btn:hover {
+  background-color: #157347;
+  color: white;
+}
+
+/* Tab Navigation (Grid vs List) */
+.nav-pills {
+  justify-content: center;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #8e8e8e;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+.nav-link.active {
+  color: #0095f6; /* Instagram Blue */
+  background-color: transparent;
+}
+
+/* Grid View Images */
+.grid-img {
+  width: 100%;
+  height: 300px; /* Fixed height for uniformity */
+  object-fit: cover;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Feed Post Card */
+.post-card {
+  background: white;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.post-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.post-date {
+  color: #8e8e8e;
+  font-size: 0.9rem;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-footer {
+  padding: 10px 15px;
+}
+
+.likes-count {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Modal Tweaks */
+.modal-body textarea {
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  resize: none;
+}
+
+.icon-btn {
+  background: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: black;
+}
